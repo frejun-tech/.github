@@ -62,17 +62,19 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 | Connect existing SIP platforms to carrier | **Teler** (SIP Trunking) |
 | Give my sales/support team a calling tool | **Dialer** |
 | Set up IVR, call recording, CRM sync | **Dialer** |
+| Embed calling into a mobile app | **Dialer** (Mobile SDK) |
 
 ---
 
 ## Repositories
 
-**Core SDK**
-| Repo | Description |
-|---|---|
-| [teler-py](https://github.com/frejun-tech/teler-py) | Python SDK — lightweight abstraction over the Teler API |
+**Teler SDKs**
+| Repo | Language | Description |
+|---|---|---|
+| [teler-py](https://github.com/frejun-tech/teler-py) | Python | Lightweight abstraction over the Teler API |
+| [teler-node](https://github.com/frejun-tech/teler-node) | Node.js | Teler API SDK for Node.js |
 
-**Integration bridges**
+**Teler integration bridges**
 | Repo | Description |
 |---|---|
 | [teler-openai-bridge](https://github.com/frejun-tech/teler-openai-bridge) | Teler + OpenAI Realtime API via WebSocket |
@@ -81,6 +83,11 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 | [teler-elevenlabs-bridge](https://github.com/frejun-tech/teler-elevenlabs-bridge) | Teler + ElevenLabs |
 | [teler-devnagri-bridge](https://github.com/frejun-tech/teler-devnagri-bridge) | Teler + Devnagri |
 
+**Dialer SDKs**
+| Repo | Platform | Description |
+|---|---|---|
+| [react-native-softphone-sdk](https://github.com/frejun-tech/react-native-softphone-sdk) | React Native | Embed FreJun calling into mobile apps |
+
 ---
 
 ## Get started
@@ -88,7 +95,7 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 **Teler (developers)**
 1. Sign up → [platform.frejun.ai](https://platform.frejun.ai/signup)
 2. Provision a number via the API
-3. Pick a repo above that matches your AI provider
+3. Pick a repo above that matches your AI provider or language
 4. Run the example and connect your model
 
 **Dialer (business teams)**
