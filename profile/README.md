@@ -36,9 +36,7 @@ Caller → Teler Number → WebSocket → Your Server
 
 **What developers build:**
 - AI voice agents (support, sales, scheduling, receptionist)
-- Intelligent IVR with natural language understanding
 - Automated outbound campaigns
-- Voice-enabled SaaS features (click-to-call, transcription, recording)
 
 → [frejun.ai](https://frejun.ai) · [API docs](https://frejun.ai/docs) · [Sign up](https://platform.frejun.ai/signup)
 
@@ -59,7 +57,6 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 | I want to... | Use |
 |---|---|
 | Build an AI voice agent or bot | **Teler** |
-| Add phone calls to my application | **Teler** |
 | Stream real-time audio to my AI model | **Teler** |
 | Connect existing SIP platforms to carrier | **Teler** (SIP Trunking) |
 | Give my sales/support team a calling tool | **Dialer** |
@@ -97,7 +94,7 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 
 **Teler (developers)**
 1. Sign up → [platform.frejun.ai](https://platform.frejun.ai/signup)
-2. Provision a number via the API
+2. Provision a number
 3. Pick a repo above that matches your AI provider or language
 4. Run the example and connect your model
 
