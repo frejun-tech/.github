@@ -40,6 +40,8 @@ Caller → Teler Number → WebSocket → Your Server
 - Automated outbound campaigns
 - Voice-enabled SaaS features (click-to-call, transcription, recording)
 
+→ [frejun.ai](https://frejun.ai) · [API docs](https://frejun.ai/docs) · [Sign up](https://platform.frejun.ai/signup)
+
 ---
 
 ## Dialer — Business calling platform
@@ -48,7 +50,7 @@ FreJun Dialer is a cloud telephony platform for sales and support teams.
 It provides IVR, call recording, autodial, and CRM integration — with a
 full REST API for Calling, Number Management, User Management, and Webhooks.
 
-→ [frejun.com](https://frejun.com) · [API docs](https://frejun.com/docs)
+→ [frejun.com](https://frejun.com) · [API docs](https://frejun.com/docs) · [Sign up](https://product.frejun.com/signup)
 
 ---
 
@@ -72,16 +74,17 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 | Repo | Language | Description |
 |---|---|---|
 | [teler-py](https://github.com/frejun-tech/teler-py) | Python | Lightweight abstraction over the Teler API |
-| [teler-node](https://github.com/frejun-tech/teler-node) | Node.js | Teler API SDK for Node.js |
+| [teler-node](https://github.com/frejun-tech/teler-node) | Node.js | Lightweight abstraction over the Teler API |
 
 **Teler integration bridges**
-| Repo | Description |
-|---|---|
-| [teler-openai-bridge](https://github.com/frejun-tech/teler-openai-bridge) | Teler + OpenAI Realtime API via WebSocket |
-| [teler-vapi-bridge](https://github.com/frejun-tech/teler-vapi-bridge) | Teler + VAPI |
-| [teler-gemini-bridge](https://github.com/frejun-tech/teler-gemini-bridge) | Teler + Gemini Live API |
-| [teler-elevenlabs-bridge](https://github.com/frejun-tech/teler-elevenlabs-bridge) | Teler + ElevenLabs |
-| [teler-devnagri-bridge](https://github.com/frejun-tech/teler-devnagri-bridge) | Teler + Devnagri |
+
+| Provider | Python | Node.js |
+|---|---|---|
+| OpenAI Realtime | [teler-openai-bridge](https://github.com/frejun-tech/teler-openai-bridge) | [teler-openai-node-bridge](https://github.com/frejun-tech/teler-openai-node-bridge) |
+| VAPI | [teler-vapi-bridge](https://github.com/frejun-tech/teler-vapi-bridge) | [teler-vapi-node-bridge](https://github.com/frejun-tech/teler-vapi-node-bridge) |
+| Gemini Live | [teler-gemini-bridge](https://github.com/frejun-tech/teler-gemini-bridge) | [teler-gemini-node-bridge](https://github.com/frejun-tech/teler-gemini-node-bridge) |
+| ElevenLabs | [teler-elevenlabs-bridge](https://github.com/frejun-tech/teler-elevenlabs-bridge) | [teler-elevenlabs-node-bridge](https://github.com/frejun-tech/teler-elevenlabs-node-bridge) |
+| Devnagri | [teler-devnagri-bridge](https://github.com/frejun-tech/teler-devnagri-bridge) | [teler-devnagri-node-bridge](https://github.com/frejun-tech/teler-devnagri-node-bridge) |
 
 **Dialer SDKs**
 | Repo | Platform | Description |
