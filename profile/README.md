@@ -85,16 +85,23 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 
 ## Get started
 
+**Teler (developers)**
 1. Sign up → [platform.frejun.ai](https://platform.frejun.ai/signup)
-2. Pick a repo above that matches your AI provider
-3. Run the example and connect your model
+2. Provision a number via the API
+3. Pick a repo above that matches your AI provider
+4. Run the example and connect your model
+
+**Dialer (business teams)**
+1. Sign up → [product.frejun.com](https://product.frejun.com/signup)
+2. Set up your team, numbers, and CRM integration
+3. Start calling
 
 ---
 
 ## Links
 
-- Teler docs → [frejun.ai/docs](https://www.frejun.ai/docs/)
-- Dialer docs → [frejun.com/docs](https://frejun.com/docs/)
-- Teler website → [frejun.ai](https://frejun.ai)
-- Dialer website → [frejun.com](https://frejun.com)
-- Contact → hello@frejun.com
+| | Teler | Dialer |
+|---|---|---|
+| Website | [frejun.ai](https://frejun.ai) | [frejun.com](https://frejun.com) |
+| Docs | [frejun.ai/docs](https://www.frejun.ai/docs/) | [frejun.com/docs](https://frejun.com/docs/) |
+| Sign up | [platform.frejun.ai/signup](https://platform.frejun.ai/signup) | [product.frejun.com/signup](https://product.frejun.com/signup) |
