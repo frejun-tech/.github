@@ -73,15 +73,23 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 | [teler-py](https://github.com/frejun-tech/teler-py) | Python | Lightweight abstraction over the Teler API |
 | [teler-node](https://github.com/frejun-tech/teler-node) | Node.js | Lightweight abstraction over the Teler API |
 
-**Teler integration bridges**
+**Teler integrations**
 
 | Provider | Python | Node.js |
 |---|---|---|
-| OpenAI Realtime | [teler-openai-bridge](https://github.com/frejun-tech/teler-openai-bridge) | [teler-openai-node-bridge](https://github.com/frejun-tech/teler-openai-node-bridge) |
-| VAPI | [teler-vapi-bridge](https://github.com/frejun-tech/teler-vapi-bridge) | [teler-vapi-node-bridge](https://github.com/frejun-tech/teler-vapi-node-bridge) |
-| Gemini Live | [teler-gemini-bridge](https://github.com/frejun-tech/teler-gemini-bridge) | [teler-gemini-node-bridge](https://github.com/frejun-tech/teler-gemini-node-bridge) |
-| ElevenLabs | [teler-elevenlabs-bridge](https://github.com/frejun-tech/teler-elevenlabs-bridge) | [teler-elevenlabs-node-bridge](https://github.com/frejun-tech/teler-elevenlabs-node-bridge) |
+| Cartesia | [teler-cartesia-bridge](https://github.com/frejun-tech/teler-cartesia-bridge) | [teler-cartesia-node-bridge](https://github.com/frejun-tech/teler-cartesia-node-bridge) |
+| Deepgram | [teler-deepgram-bridge](https://github.com/frejun-tech/teler-deepgram-bridge) | [teler-deepgram-node-bridge](https://github.com/frejun-tech/teler-deepgram-node-bridge) |
 | Devnagri | [teler-devnagri-bridge](https://github.com/frejun-tech/teler-devnagri-bridge) | [teler-devnagri-node-bridge](https://github.com/frejun-tech/teler-devnagri-node-bridge) |
+| ElevenLabs | [teler-elevenlabs-bridge](https://github.com/frejun-tech/teler-elevenlabs-bridge) | [teler-elevenlabs-node-bridge](https://github.com/frejun-tech/teler-elevenlabs-node-bridge) |
+| Gemini Live | [teler-gemini-bridge](https://github.com/frejun-tech/teler-gemini-bridge) | [teler-gemini-node-bridge](https://github.com/frejun-tech/teler-gemini-node-bridge) |
+| OpenAI Realtime | [teler-openai-bridge](https://github.com/frejun-tech/teler-openai-bridge) | [teler-openai-node-bridge](https://github.com/frejun-tech/teler-openai-node-bridge) |
+| Sarvam AI | — | [teler-sarvam-node-bridge](https://github.com/frejun-tech/teler-sarvam-node-bridge) |
+| Ultravox | [teler-ultravox-bridge](https://github.com/frejun-tech/teler-ultravox-bridge) | [teler-ultravox-node-bridge](https://github.com/frejun-tech/teler-ultravox-node-bridge) |
+| Vapi | [teler-vapi-bridge](https://github.com/frejun-tech/teler-vapi-bridge) | [teler-vapi-node-bridge](https://github.com/frejun-tech/teler-vapi-node-bridge) |
+| WAV playback | — | [teler-wav-bridge](https://github.com/frejun-tech/teler-wav-bridge) |
+| LiveKit (SIP trunking) | [teler-livekit-outbound](https://github.com/frejun-tech/teler-livekit-outbound) | — |
+| OpenAI Realtime (SIP trunking) | [teler-openai-sip-trunking](https://github.com/frejun-tech/teler-openai-sip-trunking) | — |
+
 
 **Dialer SDKs**
 | Repo | Platform | Description |
