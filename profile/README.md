@@ -87,7 +87,7 @@ full REST API for Calling, Number Management, User Management, and Webhooks.
 | Ultravox | [teler-ultravox-bridge](https://github.com/frejun-tech/teler-ultravox-bridge) | [teler-ultravox-node-bridge](https://github.com/frejun-tech/teler-ultravox-node-bridge) |
 | Vapi | [teler-vapi-bridge](https://github.com/frejun-tech/teler-vapi-bridge) | [teler-vapi-node-bridge](https://github.com/frejun-tech/teler-vapi-node-bridge) |
 | WAV playback | — | [teler-wav-bridge](https://github.com/frejun-tech/teler-wav-bridge) |
-| LiveKit (outbound, SIP) | [teler-livekit-outbound](https://github.com/frejun-tech/teler-livekit-outbound) | — |
+| LiveKit (SIP trunking) | [teler-livekit-outbound](https://github.com/frejun-tech/teler-livekit-outbound) | — |
 | OpenAI Realtime (SIP trunking) | [teler-openai-sip-trunking](https://github.com/frejun-tech/teler-openai-sip-trunking) | — |
 
 
